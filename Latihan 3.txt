@@ -1,0 +1,3 @@
+array = [1,3,5,7,9]
+array = [11 - x for x in array]
+print("Array setelah diubah:", array)

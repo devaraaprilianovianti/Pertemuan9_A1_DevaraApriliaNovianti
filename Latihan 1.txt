@@ -1,0 +1,6 @@
+angka = []
+for i in range(5):
+    angka.append(float(input(f"Masukkan angka ke-{i+1}: ")))
+
+rata_rata = sum(angka) / len(angka)
+print("Rata-rata dari angka-angka tersebut adalah:",rata_rata)
